@@ -62,7 +62,7 @@ public class AnvendDB {
         } catch (SQLException throwables) {
             throwables.printStackTrace();
         }
-        double randomspo2 = sensorpulsoxi.puls();
+        double randomspo2 = sensorpulsoxi.SpO2();
         String SQL2 = "INSERT INTO spO2table (ValueSpo2,Tidspunkt,CPR) VALUES (?,?,?)";
         try {
 
