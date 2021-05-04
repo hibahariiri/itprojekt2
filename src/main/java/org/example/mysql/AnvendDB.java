@@ -6,6 +6,7 @@ import org.example.SensorTemp;
 
 import java.sql.Connection;
 import java.sql.*;
+import java.util.ArrayList;
 
 public class AnvendDB {
 
@@ -23,8 +24,16 @@ public class AnvendDB {
         this.connection = conn;
     }
 
+    public ArrayList getTemperatureMeasurements(){
+
+        ArrayList out = new ArrayList();
+
+        return out;
+    }
 
     public void insertMeasurementsIntoTable(Date tidspunkt, int CPR) {
+
+        //TO DO : Del metoden op i tre.
 
 
         Double randomtemp = sensortemp.temperaturV();
@@ -81,7 +90,6 @@ public class AnvendDB {
         }
 
     }
-
 
 }
 
