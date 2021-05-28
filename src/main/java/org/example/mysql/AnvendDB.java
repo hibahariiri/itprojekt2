@@ -10,20 +10,23 @@ import java.util.ArrayList;
 
 public class AnvendDB {
 
+    //Objekter af de to klasser.
     SensorTemp sensortemp = new SensorTemp();
     SensorPulsoxi sensorpulsoxi= new SensorPulsoxi();
 
-
+    //Attributter ?????????????? eller variabel ?????????????????
     private Connection connection;
     private Statement statement;
     private PreparedStatement preparedStatement;
     private ResultSet resultSet;
 
+    //????????????????????????
     public AnvendDB(Connection conn) {
 
         this.connection = conn;
     }
 
+    //Her danner vi en liste, med temperatur målinger som vi indsætter i næste metode.
     public ArrayList getTemperatureMeasurements(){
 
         ArrayList out = new ArrayList();
@@ -31,22 +34,24 @@ public class AnvendDB {
         return out;
     }
 
+    //I denne metode indsætter vi målingerne i tabellerne i mySQL. / vi fortæller tabellen hvilke målinger der skal indsættes.
     public void insertMeasurementsIntoTable(Date tidspunkt, int CPR) {
 
-        //TO DO : Del metoden op i tre.
-
-
+        //obejct til tempepratur fra klassen sensortemp som navngives randomtemp
         Double randomtemp = sensortemp.temperaturV();
+        //indikerer hvilken tabel de forskellige værdier skal indsættes i
         String SQL = "INSERT INTO Temptable (Valuetemp,Tidspunkt,CPR) VALUES (?,?,?)";
 
         try {
-
+            //kobler koden for nede med string sql for oven
             preparedStatement = connection.prepareStatement(SQL);
 
+            // indikere hvor de forskellige værdi skal indsættets inde i sql database
             preparedStatement.setDouble(1, randomtemp);
             preparedStatement.setDate(2, tidspunkt);
             preparedStatement.setInt(3, CPR);
 
+            // return af rækker
             preparedStatement.executeUpdate();
 
             System.out.println("Kolonne 1 indsat");

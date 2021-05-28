@@ -9,6 +9,7 @@ import java.io.IOException;
 
 public class LægeloginController {
 
+    //Controlelementer here
     @FXML
     TextField CPRfelt;
     @FXML
