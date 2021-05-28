@@ -40,7 +40,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DBtester">
+  <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.App" />
       <module name="Itprojekt2" />
@@ -91,7 +91,7 @@
       <workItem from="1621250458682" duration="2172000" />
       <workItem from="1621509606476" duration="2919000" />
       <workItem from="1621595762367" duration="7828000" />
-      <workItem from="1622190913636" duration="343000" />
+      <workItem from="1622190913636" duration="624000" />
     </task>
     <task id="LOCAL-00001" summary="IT2project">
       <created>1619251847150</created>
@@ -128,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622191026395</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="IT2project">
+      <created>1622191325489</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1622191325489</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
