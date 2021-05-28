@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="69a64c17-a765-4bf7-a901-63bcf1d5016a" name="Default Changelist" comment="IT2project">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/LægeloginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/LægeloginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/PrimaryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/PrimaryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mysql/AnvendDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mysql/AnvendDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mysql/DBtester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mysql/DBtester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mysql/mySQL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mysql/mySQL.java" afterDir="false" />
-    </list>
+    <list default="true" id="69a64c17-a765-4bf7-a901-63bcf1d5016a" name="Default Changelist" comment="IT2project" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -98,6 +91,7 @@
       <workItem from="1621250458682" duration="2172000" />
       <workItem from="1621509606476" duration="2919000" />
       <workItem from="1621595762367" duration="7828000" />
+      <workItem from="1622190913636" duration="343000" />
     </task>
     <task id="LOCAL-00001" summary="IT2project">
       <created>1619251847150</created>
@@ -120,7 +114,21 @@
       <option name="project" value="LOCAL" />
       <updated>1620113685902</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="IT2project">
+      <created>1622190964120</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1622190964120</updated>
+    </task>
+    <task id="LOCAL-00005" summary="IT2project">
+      <created>1622191026395</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1622191026395</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
